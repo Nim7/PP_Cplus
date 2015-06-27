@@ -1,0 +1,97 @@
+E1
+10 5
+255 255 255
+1
+Rec 5 1 4 3 255 0 0
+0
+
+E2
+10 5
+255 255 255
+1
+Rec -2 -1 4 6 0 255 0
+0
+
+E3
+10 5
+255 255 255
+Tri 0 0 4 0 4 4 0 255 0
+0
+
+E4
+10 5
+255 255 255
+1
+Tri 0 0 4 0 4 4 0 255 0
+2
+Seleccionar 1 3
+BorrarSel
+
+E5
+10 5
+255 255 255
+1
+Tri 0 0 4 0 4 4 0 255 0
+2
+Seleccionar 6 2
+BorrarSel
+
+E6
+10 5
+255 255 255
+2
+Tri 0 0 4 0 4 4 0 255 0
+Rec 5 1 4 3 255 0 0
+4
+Seleccionar 1 3
+AgregarSel 6 2
+AgruparSel
+BorrarSel
+
+E7 == E6
+
+E8
+10 5
+255 255 255
+2
+Tri 0 0 4 0 4 4 0 255 0
+Rec 5 1 4 3 255 0 0
+5
+Seleccionar 1 3
+AgregarSel 6 2
+AgruparSel
+DesagruparSel
+BorrarSel
+
+E9
+10 5
+255 255 255
+1
+Rec 5 1 4 3 255  0 0
+2
+Seleccionar 6 2
+MoverSel -4 -1
+
+E10
+10 5
+255 255 255
+2
+Tri 0 0 4 0 4 4 0 255 0
+Rec 5 1 4 3 255 0 0
+4
+Seleccionar 1 3
+AgregarSel 6 2
+AgruparSel
+MoverSel 2 -1
+
+EJ PROFE
+10 5
+255 255 255
+2
+Seg 0 2 4 0 0 0 0 
+Rec 2 2 8 3 255 0 0
+2
+Seleccionar 4 2
+BorrarSel
+
+(tiene q borrar el rectangulo)

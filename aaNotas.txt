@@ -1,0 +1,11 @@
+NOTAS:
+
+- Sobrecarga de operador << y >> en las clases "Punto", "Color", "Lienzo" y "Dibujo", ya 
+  que son los necesarios para "std::cin y std::cout".
+- Uso "vector" -> Estructura de datos de la STL.
+- Uso "find" de vector -> Algoritmo de la STL.
+- Polimorfismo dinamico: herencia y punteros. Todas las figuras heredan de Figura (incluso GrupoFiguras
+  que además esta formado por Figuras). Los Vector<Figura*> por lo que pueden tener todo tipo de figuras
+  y cuando llamas a funciones, cada figura hace la que tiene definida.
+- Patrones: Composite, hacemos una composicion recursiva de Figuras en GrupoFiguras.
+
